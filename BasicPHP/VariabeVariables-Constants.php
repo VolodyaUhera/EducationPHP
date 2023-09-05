@@ -31,9 +31,10 @@ echo "<br>";
 
 $foo = "Bar";
 
-$$foo = 'Baz';
+$$foo = 'Baz1111';
 
 echo "<br>";
 
 echo $foo, $Bar;
 echo $foo, $$foo;
+
