@@ -7,7 +7,7 @@
         <?php $score = 96 ?>
 
         <?php if ($score >= 90): ?>
-            <strong style="color: red">A</strong>
+            <strong style="color: red; font-size: 160px">A</strong>
                 <?php if ($score >= 95): ?>
                     <strong style="color: red">+</strong>
                 <?php endif ?>

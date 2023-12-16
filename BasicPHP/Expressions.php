@@ -5,11 +5,13 @@
 $x = 5;
 
 $y = $x;
-
-$z = $x == $y;
-
+echo $y . $x;
+$z = $x == $y ;
+echo $z . $y . $x;
 $z = sum($x, $y);
 
 if ($x < 5) {
     echo "Hello";
 }
+
+?>
